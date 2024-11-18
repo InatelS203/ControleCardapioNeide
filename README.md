@@ -6,12 +6,12 @@
 🚀 **Sobre o Projeto**
 O Neides Project é uma aplicação web projetada para auxiliar no controle de cardápio, estoque e vendas de uma cantina. Foi desenvolvido utilizando Django, com foco em escalabilidade, organização e manutenibilidade do código.
 
-🔑 Características principais
-📋 Cadastro, atualização e exclusão de itens do cardápio.
-📈 Controle de estoque dinâmico, com exibição automática de itens disponíveis.
-💰 Aplicação de descontos personalizados.
-🛠️ Geração de relatórios de vendas.
-🌟 Projeto orientado pelos princípios SOLID, garantindo modularidade e reusabilidade.
+- 🔑 Características principais
+- 📋 Cadastro, atualização e exclusão de itens do cardápio.
+- 📈 Controle de estoque dinâmico, com exibição automática de itens disponíveis.
+- 💰 Aplicação de descontos personalizados.
+- 🛠️ Geração de relatórios de vendas.
+- 🌟 Projeto orientado pelos princípios SOLID, garantindo modularidade e reusabilidade.
 
 📐 **Princípios SOLID Aplicados**
 
