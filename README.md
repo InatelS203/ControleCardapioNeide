@@ -1,17 +1,15 @@
-🎨 **Neides Project**  
-> Um sistema para gerenciamento de cardápio e vendas em uma cantina, seguindo os princípios SOLID, a arquitetura MVC e utilizando padrões de design.
+🍴 Neides Project
+Um sistema robusto para controle de cardápio, estoque e pedidos, com foco em boas práticas de programação, escalabilidade e segurança.
 
----
+🛠️ **Objetivo do Projeto**
+O Neides foi desenvolvido para facilitar a gestão da cantinas, oferecendo recursos como cadastro de itens, controle de estoque, aplicação de descontos e geração de relatórios de vendas. Ele promove organização e flexibilidade com base nos princípios SOLID, arquitetura MVC e padrões de design modernos.
 
-🚀 **Sobre o Projeto**
-O Neides Project é uma aplicação web projetada para auxiliar no controle de cardápio, estoque e vendas de uma cantina. Foi desenvolvido utilizando Django, com foco em escalabilidade, organização e manutenibilidade do código.
-
-- 🔑 Características principais
-- 📋 Cadastro, atualização e exclusão de itens do cardápio.
-- 📈 Controle de estoque dinâmico, com exibição automática de itens disponíveis.
-- 💰 Aplicação de descontos personalizados.
-- 🛠️ Geração de relatórios de vendas.
-- 🌟 Projeto orientado pelos princípios SOLID, garantindo modularidade e reusabilidade.
+📐 **Principais Funcionalidades**
+Cadastro de Itens: Adicione, atualize ou remova itens do cardápio.
+Controle de Estoque: Gerencie a disponibilidade de produtos em tempo real.
+Relatórios de Vendas: Geração de relatórios personalizados (ex.: diários, mensais).
+Aplicação de Descontos: Calcule descontos com regras dinâmicas.
+Integração com Banco de Dados: Estrutura robusta em MySQL para escalabilidade.
 
 📐 **Princípios SOLID Aplicados**
 
@@ -77,55 +75,52 @@ Exemplo: 'ItemController' depende de abstrações como 'Item' e 'Venda'.
 
 ---
 
-🏗️ **Como Rodar o Projeto**
+🚀 Como Rodar o Projeto
+Pré-requisitos:
+Python 3.9+
+MySQL
+Django 4+
 
-1️⃣ **Pré-requisitos**  
-- Python 3.9+  
-- MySQL  
-- Django 4+  
 
+Passos:
+Clone o repositório:
 
-2️⃣ **Passos de Configuração**  
+bash
+git clone https://github.com/InatelS203/ControleCardapioNeide.git
+cd neides_project
 
-1. **Clone o repositório**  
-   ```bash
-   git clone https://github.com/InatelS203/ControleCardapioNeide.git
-   cd neides_project
-   ```
+Crie o ambiente virtual:
 
-2. **Crie o ambiente virtual**  
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # No Windows: venv\Scripts\activate
-   ```
+bash
+python -m venv venv
+source venv/bin/activate
 
-3. **Instale as dependências**  
-   ```bash
-   pip install -r requirements.txt
-   ```
+Instale as dependências:
 
-4. **Configure o banco de dados**  
-   - Crie um banco de dados no MySQL.  
-   - Atualize as credenciais no arquivo `settings.py`.  
+bash
+pip install -r requirements.txt
 
-5. **Execute as migrações**  
-   ```bash
-   python manage.py makemigrations
-   python manage.py migrate
-   ```
+Configure o banco de dados no arquivo settings.py.
 
-6. **Inicie o servidor local**  
-   ```bash
-   python manage.py runserver
-   ```
+Execute as migrações e rode o servidor:
+
+bash
+Copiar código
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
 
 ---
+🛡️ Segurança e Tratamento de Erros
+Camada de Tratamento de Erros:
 
-## 📌 **Funcionalidades Planejadas**
-- ✅ Cadastro de novos itens no cardápio.  
-- ✅ Controle de estoque e exibição de itens disponíveis.  
-- ✅ Atualização de preços e quantidades.  
-- ✅ Relatórios de vendas diários e mensais. 
+Classe que gerencia erros comuns, como falhas de conexão e validações.
+Controle de Acesso:
+
+Implementação de autenticação e autorização para proteger operações críticas.
+Validações:
+
+Uso do padrão Strategy para alternar entre diferentes validações de entrada.
 
 ---
 
