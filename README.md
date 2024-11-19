@@ -1,18 +1,21 @@
-🍴 **Neides Project**
+# 🍴 **Neides Project**  
+> Um sistema robusto para controle de cardápio, estoque e pedidos, com foco em boas práticas de programação, escalabilidade e segurança.
 
-Um sistema robusto para controle de cardápio, estoque e pedidos, com foco em boas práticas de programação, escalabilidade e segurança.
+---
 
-🛠️ **Objetivo do Projeto**
+## 🛠️ **Objetivo do Projeto**  
+O **Neides Project** foi desenvolvido para facilitar a gestão de cantinas, oferecendo recursos como cadastro de itens, controle de estoque, aplicação de descontos e geração de relatórios de vendas. Ele promove organização e flexibilidade com base nos princípios **SOLID**, arquitetura **MVC** e padrões de design modernos.
 
-O Neides foi desenvolvido para facilitar a gestão da cantinas, oferecendo recursos como cadastro de itens, controle de estoque, aplicação de descontos e geração de relatórios de vendas. Ele promove organização e flexibilidade com base nos princípios SOLID, arquitetura MVC e padrões de design modernos.
+---
 
-📐 **Principais Funcionalidades**
+## 📐 **Principais Funcionalidades**
+- **Cadastro de Itens:** Adicione, atualize ou remova itens do cardápio.  
+- **Controle de Estoque:** Gerencie a disponibilidade de produtos em tempo real.  
+- **Relatórios de Vendas:** Geração de relatórios personalizados (ex.: diários, mensais).  
+- **Aplicação de Descontos:** Calcule descontos com regras dinâmicas.  
+- **Integração com Banco de Dados:** Estrutura robusta em MySQL para escalabilidade.  
 
-- Cadastro de Itens: Adicione, atualize ou remova itens do cardápio.
-- Controle de Estoque: Gerencie a disponibilidade de produtos em tempo real.
-- Relatórios de Vendas: Geração de relatórios personalizados (ex.: diários, mensais).
-- Aplicação de Descontos: Calcule descontos com regras dinâmicas.
-- Integração com Banco de Dados: Estrutura robusta em MySQL para escalabilidade.
+---
 
 📐 **Princípios SOLID Aplicados**
 
@@ -78,53 +81,77 @@ Exemplo: 'ItemController' depende de abstrações como 'Item' e 'Venda'.
 
 ---
 
-🚀 Como Rodar o Projeto
-Pré-requisitos:
-Python 3.9+
-MySQL
-Django 4+
+## 🚀 **Como Rodar o Projeto**
+### Pré-requisitos:
+- Python 3.9+  
+- MySQL  
+- Django 4+  
 
+### Passos:
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/seu-usuario/neides_project.git
+   cd neides_project
+   ```
 
-Passos:
-Clone o repositório:
+2. Crie o ambiente virtual:  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
 
-bash
-git clone https://github.com/InatelS203/ControleCardapioNeide.git
-cd neides_project
+3. Instale as dependências:  
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Crie o ambiente virtual:
+4. Configure o banco de dados no arquivo `settings.py`.  
 
-bash
-python -m venv venv
-source venv/bin/activate
-
-Instale as dependências:
-
-bash
-pip install -r requirements.txt
-
-Configure o banco de dados no arquivo settings.py.
-
-Execute as migrações e rode o servidor:
-
-bash
-Copiar código
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
+5. Execute as migrações e rode o servidor:  
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py runserver
+   ```
 
 ---
-🛡️ Segurança e Tratamento de Erros
-Camada de Tratamento de Erros:
+## 🛡️ **Segurança e Tratamento de Erros**
+1. **Camada de Tratamento de Erros:**  
+   - Classe que gerencia erros comuns, como falhas de conexão e validações.  
 
-Classe que gerencia erros comuns, como falhas de conexão e validações.
-Controle de Acesso:
+2. **Controle de Acesso:**  
+   - Implementação de autenticação e autorização para proteger operações críticas.  
 
-Implementação de autenticação e autorização para proteger operações críticas.
-Validações:
-
-Uso do padrão Strategy para alternar entre diferentes validações de entrada.
-
+3. **Validações:**  
+   - Uso do padrão **Strategy** para alternar entre diferentes validações de entrada.  
 ---
 
 👩‍💻 Desenvolvido por Vitória Dutra e Lucca Marcondes. ✨
+
+
+
+
+Com base no feedback recebido, preparei um README atualizado que aborda os pontos negativos e as sugestões de melhoria apontadas. Ele inclui explicações detalhadas, estrutura do banco de dados, fluxos de interação e outros elementos essenciais para o entendimento do projeto. Segue a proposta:
+
+---
+
+### README.md
+
+# 🍴 **Neides Project**  
+> Um sistema robusto para controle de cardápio, estoque e pedidos, com foco em boas práticas de programação, escalabilidade e segurança.
+
+---
+
+## 🛠️ **Objetivo do Projeto**  
+O **Neides Project** foi desenvolvido para facilitar a gestão de cantinas, oferecendo recursos como cadastro de itens, controle de estoque, aplicação de descontos e geração de relatórios de vendas. Ele promove organização e flexibilidade com base nos princípios **SOLID**, arquitetura **MVC** e padrões de design modernos.
+
+---
+
+## 📐 **Principais Funcionalidades**
+- **Cadastro de Itens:** Adicione, atualize ou remova itens do cardápio.  
+- **Controle de Estoque:** Gerencie a disponibilidade de produtos em tempo real.  
+- **Relatórios de Vendas:** Geração de relatórios personalizados (ex.: diários, mensais).  
+- **Aplicação de Descontos:** Calcule descontos com regras dinâmicas.  
+- **Integração com Banco de Dados:** Estrutura robusta em MySQL para escalabilidade.  
+
+---
