@@ -1,4 +1,4 @@
-# 🍴 **Neides*  
+# 🍴 **Neides** 
 > Um sistema robusto para controle de cardápio, estoque e pedidos, com foco em boas práticas de programação, escalabilidade e segurança.
 
 ---
