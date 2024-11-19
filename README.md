@@ -1,10 +1,10 @@
-# 🍴 **Neides Project**  
+# 🍴 **Neides*  
 > Um sistema robusto para controle de cardápio, estoque e pedidos, com foco em boas práticas de programação, escalabilidade e segurança.
 
 ---
 
 ## 🛠️ **Objetivo do Projeto**  
-O **Neides Project** foi desenvolvido para facilitar a gestão de cantinas, oferecendo recursos como cadastro de itens, controle de estoque, aplicação de descontos e geração de relatórios de vendas. Ele promove organização e flexibilidade com base nos princípios **SOLID**, arquitetura **MVC** e padrões de design modernos.
+O **Neides** foi desenvolvido para facilitar a gestão de cantinas, oferecendo recursos como cadastro de itens, controle de estoque, aplicação de descontos e geração de relatórios de vendas. Ele promove organização e flexibilidade com base nos princípios **SOLID**, arquitetura **MVC** e padrões de design modernos.
 
 ---
 
@@ -22,27 +22,27 @@ O **Neides Project** foi desenvolvido para facilitar a gestão de cantinas, ofer
 **SRP (Single Responsibility Principle)**
 
 Cada classe tem uma responsabilidade única.
-Exemplo: 'ItemController' gerencia a lógica de controle, separada da manipulação de dados nos modelos.
+'ItemController' gerencia a lógica de controle, separada da manipulação de dados nos modelos.
 
 **OCP (Open/Closed Principle)**
 
 As classes estão abertas para extensão, mas fechadas para modificação.
-Exemplo: A classe 'Venda' pode ser estendida para incluir novos tipos de relatórios.
+A classe 'Venda' pode ser estendida para incluir novos tipos de relatórios.
 
 **LSP (Liskov Substitution Principle)**
 
 Subclasses podem ser usadas sem alterar o comportamento do sistema.
-Exemplo: Estratégias de desconto podem ser trocadas sem impactar o cálculo total.
+Estratégias de desconto podem ser trocadas sem impactar o cálculo total.
 
 **ISP (Interface Segregation Principle)**
 
 Interfaces específicas garantem que classes não implementem métodos desnecessários.
-Exemplo: A interface 'DiscountStrategy' define apenas o método 'applyDiscount'.
+A interface 'DiscountStrategy' define apenas o método 'applyDiscount'.
 
 **DIP (Dependency Inversion Principle)**
 
 Depender de abstrações e não de implementações.
-Exemplo: 'ItemController' depende de abstrações como 'Item' e 'Venda'.
+'ItemController' depende de abstrações como 'Item' e 'Venda'.
 
 🧩 **Padrões de Design Implementados**
 
@@ -50,19 +50,19 @@ Exemplo: 'ItemController' depende de abstrações como 'Item' e 'Venda'.
 - **Objetivo:** Notificar automaticamente as **Views** (interface do usuário) sobre mudanças no **Model** (dados).  
 - **Aplicação:**  
   - Sempre que o estoque ou preço de um item muda, a interface é atualizada automaticamente.  
-  - Exemplo: Atualização de cardápio em tempo real.  
+  - Atualização de cardápio em tempo real.  
 
 2. **Singleton**  
 - **Objetivo:** Garantir que apenas uma instância de certas classes (como conexão com o banco de dados) exista.  
 - **Aplicação:**  
   - A classe de conexão com o banco (`DatabaseConnection`) é um Singleton.  
-  - Exemplo: A mesma conexão é compartilhada entre controladores para otimizar recursos.  
+  - A mesma conexão é compartilhada entre controladores para otimizar recursos.  
 
 3. **Strategy**  
 - **Objetivo:** Permitir diferentes comportamentos para o cálculo de descontos dinamicamente.  
 - **Aplicação:**  
   - Implementação de estratégias como `DescontoFixo` e `DescontoPercentual`.  
-  - Exemplo: Aplicar descontos diferentes para estudantes ou clientes regulares.
+  - Aplicar descontos diferentes para estudantes ou clientes regulares.
 ---
 
 📂 **Principais Componentes**
