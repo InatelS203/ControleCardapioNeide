@@ -1,15 +1,18 @@
-🍴 Neides Project
+🍴 **Neides Project**
+
 Um sistema robusto para controle de cardápio, estoque e pedidos, com foco em boas práticas de programação, escalabilidade e segurança.
 
 🛠️ **Objetivo do Projeto**
+
 O Neides foi desenvolvido para facilitar a gestão da cantinas, oferecendo recursos como cadastro de itens, controle de estoque, aplicação de descontos e geração de relatórios de vendas. Ele promove organização e flexibilidade com base nos princípios SOLID, arquitetura MVC e padrões de design modernos.
 
 📐 **Principais Funcionalidades**
-Cadastro de Itens: Adicione, atualize ou remova itens do cardápio.
-Controle de Estoque: Gerencie a disponibilidade de produtos em tempo real.
-Relatórios de Vendas: Geração de relatórios personalizados (ex.: diários, mensais).
-Aplicação de Descontos: Calcule descontos com regras dinâmicas.
-Integração com Banco de Dados: Estrutura robusta em MySQL para escalabilidade.
+
+- Cadastro de Itens: Adicione, atualize ou remova itens do cardápio.
+- Controle de Estoque: Gerencie a disponibilidade de produtos em tempo real.
+- Relatórios de Vendas: Geração de relatórios personalizados (ex.: diários, mensais).
+- Aplicação de Descontos: Calcule descontos com regras dinâmicas.
+- Integração com Banco de Dados: Estrutura robusta em MySQL para escalabilidade.
 
 📐 **Princípios SOLID Aplicados**
 
